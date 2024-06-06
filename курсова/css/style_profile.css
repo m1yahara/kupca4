@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.post p {
+    margin: 0 0 10px;
+}
+
+.post-image,
+.post-video {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+
+.like-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.like-button:hover {
+    background-color: #45a049;
+}
+
+
+
+.delete-post {
+    background-color: #dc3545;
+     border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-post:hover {
+    background-color: #c82333;
+.like-count {
+    margin: 10px 0;
+}
+
+.comment-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.comment-link:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.delete-account-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.delete-account-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-account-button:hover {
+    background-color: #c82333;
+}
+
